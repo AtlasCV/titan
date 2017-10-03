@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-image: url('./ny.png');
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.atlas-footer {
+  bottom: 0px;
+  position: fixed;
+  padding-left: 45%;
+}
+
+.atlas-content {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 32vh;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
